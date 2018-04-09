@@ -142,9 +142,9 @@ SUGGESTIONS_SEJOUR|Exemple : Que le jacuzii d’aquariaz fonctionne grrr
 PAYS_RESIDENCE| Exemple : France
 PAYS_RESIDENCE_Autre| Uniquement dispo si PAYS_RESIDENCE = Autre pays
 DEPARTEMENT| Exemple : 75
-MAIL | toto@toto.fr
-NOM | Titi
-PRENOM | Yoto
+MAIL | michougert@yopmail.fr
+NOM | Gertner
+PRENOM | Michel
 ADRESSE | 17 avenue d'Aléry
 CODE_POSTAL|74000
 VILLE|Annecy
