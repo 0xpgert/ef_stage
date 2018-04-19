@@ -61,7 +61,7 @@ Tout d'abord, voici une liste récapitulant l'ensemble des sources d'approvision
   * **Quand** ? Quand l'utilisateur effectue une action engendrant une modification.
   * **Impacts BDD** ? Tables _*ef_client*_, _*ef_trace_client*_. Update/Create d'une fiche + ajout d'une trace de passage.
   * **Table tampon de synchonisation:** *Aucune*
-> Il manque juste TeamAcess, qui fournira les données concernant les remontées mecaniques.
+> Il manque juste TeamAxxess, qui fournira les données concernant les remontées mecaniques.
 
 ## Rappel sur la catégorisation des champs d'une fiche client
 
