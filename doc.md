@@ -4,9 +4,9 @@
 
 1. [Modèle de données](##modèle-de-données)
 1. [Récapitulatif](##récapitulatif)
-    1. [Eficéo Collecte](###eficéo-:-collecte)
-    1. [Eficéo Répondants](###eficéo-:-répondants)
-    1. [XSalto Commandes en ligne](###xsalto-:-commandes-en-ligne)
+    1. [Eficéo Collecte](###eficéo-collecte)
+    1. [Eficéo Répondants](###eficéo-répondants)
+    1. [XSalto Commandes en ligne](###xsalto-commandes-en-ligne)
     1. [Plateforme Eficéo](###plateforme-eficéo)
 1. [Classification informations](##rappel-sur-la-catégorisation-des-champs-d'une-fiche-client)
 1. [Process de dédoublonnage](##rappel-sur-le-process-de-dédoublonnage)
