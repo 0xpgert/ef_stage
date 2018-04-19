@@ -253,12 +253,19 @@ Voici un diagramme de séquence représentant la transition entre la web api et 
 
 ![alt text](https://docs.google.com/uc?id=182llRC6ulyfULYq4QC0PT45j6gEb5jGX "seq_api_data")
 
+Explication sur quelques champs :
+
+* Le champ nbr_forfait est calculé en fonction de la taille du tableau data[] (situé en dessous de relationships/lines). Aussi, le champ pres_enfant est calculé (bool) en fonction du type de porduits qui dont commandés : Si le libellé d'origine contient "enfant" alors c'est true sinon false.**
+* Le champ **num_key_card** est le numéro d'identification du forfait. Celui-ci servivra à retrouver les données de passages aux remontées mecaniques avec TeamAxxess.
+* Le champ id_xsalto correspond à l'id de la commande chez XSalto.
+* Le type peut être : R,C,G et M.
+
 Suite à ce traitement, on voit donc qu'une trace "XSalto Commande" est générée (dource_id=4) :
 ![alt text](https://docs.google.com/uc?id=1mou0EqGgQNYXxUuQSk9tCe_WPvsqkHOe "ligne_de_resultats")
 
-**Remarque 1 : La table prx_sync_client pourra permettre à sequentiel  d'utiliser d'autre web API en gardant le contenu json.**
-**Remarque 2 : Le champ nbr_forfait est calculé en fonction de la taille du tableau data[] (situé en dessous de relationships/lines). Aussi, le champ pres_enfant est calculé (bool) en fonction du type de porduits qui dont commandés : Si le libellé d'origine contient "enfant" alors c'est true sinon false.**
-**Remarque 3 : (Après MaJ) : A partir d'une trace donnée on peut donc retrouver le contenu de la commande (clé étrangère).**
+* La table prx_sync_client pourra permettre à sequentiel  d'utiliser d'autre web API en gardant le contenu json.**
+* (Après MaJ) : A partir d'une trace donnée on peut donc retrouver le contenu de la commande (clé étrangère).**
+
 Visuellement, on retrouve leur affichage comme ceci :
 ![alt text](https://docs.google.com/uc?id=1nr79zehCf0EtkJ_Hm_xAcBQzoZSiBJaH "affichage_resultats")
 
@@ -272,6 +279,8 @@ Pour permettre cela voici comment les segments sont faits dans la base  :
 Voici un exemple de lignes que l'on peut retrouver dans la table des filtres :
 
 ![alt text](https://docs.google.com/uc?id=1Tm_k__l711OrYnBx2xTMUz127vp2D4ui "segm_tables")
+
+Le segment est ensuite calculé en php, il n'est pas socké dans la base de données.
 
 ## Annexe
 
