@@ -274,11 +274,11 @@ Visuellement, on retrouve leur affichage comme ceci :
 L'application permet aux utilisateurs d'éffectuer des segments sur leur clientèle grâce à différents filtres (âge,pays,fidèlité, ...). Un segment est défini par un nom et est composé de filtres.
 Pour permettre cela voici comment les segments sont faits dans la base  :
 
-![alt text](https://docs.google.com/uc?id=11oP_4H9lBBfWczrOq0onqkOIz6biXCF1 "segm_tables")
+![alt text](https://docs.google.com/uc?id=1EnfsAiG0FqEER-DsQwDLWmeQAWJY7S-x "segm_tables")
 
 Voici un exemple de lignes que l'on peut retrouver dans la table des filtres :
 
-![alt text](https://docs.google.com/uc?id=1QIUgpsM7zFocQPVbHHFOQqYAmamu1Ky0 "segm_res")
+![alt text](https://docs.google.com/uc?id=1ZfYPlt8PPZIIkwUfq8cIaJnl87d73M4R "segm_res")
 
 Le segment est ensuite calculé en php, il n'est pas socké dans la base de données.
 
